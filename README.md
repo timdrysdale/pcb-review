@@ -9,8 +9,24 @@ Ideally we'd also have a change control process so that we only have to sign off
 
 A spreadsheet is probably a useful way to address this issue.
 
+## Usage of this repo
 
+I'm assuming that the templates might be better kept up to date if the actual reviews are stored in the same repo - they can also be copied into the project repos, or done in the project repo and then copied in here - that way, boards with similar parts can find checks in pre-existing design reviews to draw on.
 
+Suggested review folder structure:
+`review.ods`: the review spreadsheet
+`design.md`: any design descriptions, and useful notes e.g. checking orientation and sizing of parts. 
+`doc`: datasheets and application notes
+`pcb`: the actual design files under review (complete, including all footprints)
+
+```
+├── example
+│   ├── doc
+│   └── pcb
+└── pidcontrol2
+    ├── doc
+    └── pcb
+```
 
 
 
