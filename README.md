@@ -28,5 +28,8 @@ Suggested review folder structure:
     └── pcb
 ```
 
+## Developer notes
+
+A guide to conditional formatting in LibreOffice Calc is [here](https://wiki.documentfoundation.org/images/d/d1/LibreOffice_Calc._Conditional_formatting_guide_EN.pdf)
 
 
